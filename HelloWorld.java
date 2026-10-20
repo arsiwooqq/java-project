@@ -3,5 +3,6 @@ public class HelloWorld {
         System.out.println("Привет, мир! Hello, World!");
         Calculator.run();
         TemperatureConverter.run();
+        ParityChecker.run();
     }
 }
