@@ -11,6 +11,13 @@ public class Calculator {
         return a * b;
     }
 
+    public static double divide(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Деление на ноль");
+        }
+        return a / b;
+    }
+
     public static void run() {
         double a = 12;
         double b = 5;
