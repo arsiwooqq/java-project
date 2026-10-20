@@ -14,6 +14,6 @@ public class Calculator {
     public static void run() {
         double a = 12;
         double b = 5;
-        System.out.println("Результат: " + add(a, b));
+        System.out.println(a + " + " + b + " = " + add(a, b));
     }
 }
